@@ -1,0 +1,5 @@
+Model,True Negative,False Positive,False Negative,True Positive
+Logistic Regression,5755,1587,1097,1561
+Decision Tree,6015,1327,798,1860
+Random Forest,6721,621,800,1858
+SVM,6522,820,587,2071

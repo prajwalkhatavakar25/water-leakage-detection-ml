@@ -1,0 +1,50 @@
+{
+    "project": "Water Leakage Detection Using Machine Learning",
+    "training_samples": 30000,
+    "validation_samples": 10000,
+    "testing_samples": 10000,
+    "features": [
+        "Pressure",
+        "Pressure_Change",
+        "Refill"
+    ],
+    "target": "Leak",
+    "random_state": 42,
+    "models": {
+        "Logistic Regression": {
+            "C": 1.0,
+            "max_iter": 2000,
+            "class_weight": "balanced",
+            "random_state": 42
+        },
+        "Decision Tree": {
+            "max_depth": null,
+            "min_samples_split": 2,
+            "min_samples_leaf": 2,
+            "class_weight": "balanced",
+            "random_state": 42
+        },
+        "Random Forest": {
+            "n_estimators": 200,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "class_weight": "balanced_subsample",
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        "SVM": {
+            "C": 1.0,
+            "kernel": "rbf",
+            "gamma": "scale",
+            "class_weight": "balanced",
+            "cache_size": 2000
+        }
+    },
+    "training_times_seconds": {
+        "Logistic Regression": 0.058325840999714273,
+        "Decision Tree": 0.40335081000011996,
+        "Random Forest": 19.216424353000093,
+        "SVM": 48.94622989000027
+    },
+    "scikit_learn_version": "1.6.1"
+}

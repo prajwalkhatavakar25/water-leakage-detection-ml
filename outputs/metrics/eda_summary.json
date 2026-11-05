@@ -1,0 +1,10 @@
+{
+    "dataset_rows": 100000,
+    "dataset_columns": 301,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "leak_observations": 2680125,
+    "no_leak_observations": 7319875,
+    "leak_percentage": 26.80125,
+    "no_leak_percentage": 73.19875
+}

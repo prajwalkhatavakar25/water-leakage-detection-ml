@@ -1,0 +1,15 @@
+{
+    "project": "Water Leakage Detection Using Machine Learning",
+    "dataset_source": "https://github.com/IndustrialNetwork/GraphDataset.git",
+    "dataset_git_commit": "862da8b419e65b240c107a343b72dad44915c811",
+    "environment": {
+        "python_version": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "pandas": "2.2.3",
+        "numpy": "2.4.6",
+        "scikit_learn": "1.6.1",
+        "matplotlib": "3.10.0",
+        "seaborn": "0.13.2",
+        "recorded_at_utc": "2026-11-05T14:36:59.617818+00:00"
+    }
+}

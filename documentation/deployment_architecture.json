@@ -1,0 +1,26 @@
+{
+    "project": "Water Leakage Detection Using Machine Learning",
+    "deployment_status": "Proposed - Not deployed on physical hardware",
+    "selected_model": "SVM",
+    "model_file": "models/svm.joblib",
+    "input_features": [
+        "Pressure",
+        "Pressure_Change",
+        "Refill"
+    ],
+    "workflow": [
+        "Water tank sensors",
+        "Data collection",
+        "Data validation",
+        "Feature engineering",
+        "Trained SVM model",
+        "Leak prediction",
+        "Alert generation",
+        "Monitoring dashboard",
+        "Historical logging"
+    ],
+    "prediction_classes": {
+        "0": "No Leak",
+        "1": "Leak"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "monitoring_frequency": "Continuous during operation",
+    "performance_metrics": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1-Score",
+        "False Negative Rate"
+    ],
+    "data_quality_checks": [
+        "Missing sensor readings",
+        "Invalid pressure values",
+        "Invalid refill indicators",
+        "Duplicate or out-of-order timestamps"
+    ],
+    "drift_monitoring": [
+        "Pressure distribution changes",
+        "Pressure change distribution",
+        "Refill frequency changes",
+        "Prediction distribution changes"
+    ],
+    "latency_monitoring": [
+        "Average inference time",
+        "95th percentile inference time"
+    ],
+    "maintenance_actions": [
+        "Investigate excessive false alarms",
+        "Inspect missed leakage events",
+        "Verify sensor calibration",
+        "Review data drift",
+        "Retrain when performance degradation is confirmed"
+    ],
+    "ground_truth_source": "Verified maintenance inspection records",
+    "deployment_status": "Proposed architecture with simulated inference"
+}

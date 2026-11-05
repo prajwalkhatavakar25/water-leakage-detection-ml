@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.DS_Store
+*.log
+data/raw/
+
+
+# Dataset samples excluded pending redistribution review
+data/processed/
+
+# Temporary files
+*.tmp
+*.log
+__pycache__/
+.ipynb_checkpoints/

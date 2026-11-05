@@ -1,0 +1,23 @@
+{
+    "split_strategy": "Chronological",
+    "training_period": "0-69999",
+    "validation_period": "70000-84999",
+    "testing_period": "85000-99999",
+    "original_observations": 10000000,
+    "training_sample_size": 30000,
+    "validation_sample_size": 10000,
+    "testing_sample_size": 10000,
+    "features": [
+        "Pressure",
+        "Pressure_Change",
+        "Refill"
+    ],
+    "target": "Leak",
+    "sampling_strategy": "Stratified sampling",
+    "random_state": 42,
+    "feature_engineering": [
+        "Pressure",
+        "Pressure Change",
+        "Refill"
+    ]
+}
